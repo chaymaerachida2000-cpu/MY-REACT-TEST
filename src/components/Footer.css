@@ -1,0 +1,13 @@
+/* 🌙 Mli kiy-koun s-site f Dark Mode */
+body.dark .footer-container {
+  background-color: #1e1e24; /* background ghame9 */
+  border-top: 1px solid #2d2d34;
+  color: #ffffff;            /* ktaba b l-byad */
+}
+
+/* ☀️ Mli kiy-koun s-site f Light Mode */
+body.light .footer-container {
+  background-color: #ffffff; /* background biyyad */
+  border-top: 1px solid #cccccc;
+  color: #111116;            /* ktaba b l-k7al */
+}

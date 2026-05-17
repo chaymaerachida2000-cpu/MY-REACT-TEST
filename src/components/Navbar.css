@@ -1,0 +1,23 @@
+.navBar {
+  background-color: #2c3e50; /* Lon rmad ghameq chwiya */
+  color: white;              /* Lon d l-ketba */
+  padding: 20px;             /* Faraq wast l-navbar */
+  display: flex;             /* Bach t-7kkmi f l-stif d l-ajza' */
+  justify-content: center;   /* Bach y-ji l-logo f l-wasat */
+}
+
+.logo h1 {
+  margin: 0;                 /* T-7iyed l-faraq li kiy-koun f l-h1 dima */
+  font-family: Arial, sans-serif;
+}
+.lista {
+  display: flex;                /* Jib Home 7da About 7da Contact */
+  list-style: none;             /* 7iyed dik t-toqat */
+  gap: 20px;                    /* Khalli l-faraq bin l-links */
+}
+
+.lista li a {
+  color: white;
+  text-decoration: none;        /* 7iyed s-ster li ta7t l-links */
+  font-size: 18px;
+}

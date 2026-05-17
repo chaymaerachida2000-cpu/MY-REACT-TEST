@@ -1,0 +1,7 @@
+.hero-img {
+    width: 200px;        /* L-3ord li bghiti */
+    height: 200px;       /* L-tool */
+    object-fit: cover;   /* Bach tصwira ma-t-jebbedch */
+    border-radius: 50%;  /* Ila bghitiha t-ban dayra (Circle) */
+    margin-bottom: 20px;
+}

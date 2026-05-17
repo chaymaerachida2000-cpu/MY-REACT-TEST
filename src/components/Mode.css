@@ -1,0 +1,66 @@
+/* ==========================================
+   1. L-STILA DYAL L-BOUTON BRAASO (The Toggle Button)
+   ========================================== */
+.theme-container {
+  display: flex;
+  justify-content: flex-end; /* Kiy-7tt l-bouton f l-khw d l-imn l-foq */
+  padding: 20px 40px;
+  background: transparent;
+}
+
+.theme-btn {
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 25px;
+  border: 2px solid #00d2ff;
+  background: #1e1e24;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+/* Mli l-user kiy-7tt l-la-souris 3la l-bouton */
+.theme-btn:hover {
+  transform: scale(1.05); /* Kiy-kber sghwer */
+  background: #00d2ff;
+  color: #111116;
+}
+
+/* ==========================================
+   2. 🌙 MLI L-BODY KIY-WELLI .dark (Dark Mode)
+   ========================================== */
+body.dark {
+  background-color: #111116; /* lon l-k7al l-ghame9 d s-site */
+  color: #ffffff;            /* ktaba b l-byad */
+  transition: background-color 0.4s ease, color 0.4s ease; /* animation khfifa */
+}
+
+/* Ila 3ndk chi sandoqa d l-khidma (Card) f l-Hero aw s-site */
+body.dark .usercard, body.dark .hero-container {
+  background-color: #1e1e24;
+  color: #ffffff;
+}
+
+body.dark h1, body.dark p {
+  color: #ffffff;
+}
+
+/* ==========================================
+   3. ☀️ MLI L-BODY KIY-WELLI .light (Light Mode)
+   ========================================== */
+body.light {
+  background-color: #f4f4f9; /* lon l-byad d sba7 */
+  color: #111116;            /* ktaba b l-k7al ghame9 */
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+/* L-cards dynamic-ally kiy-welli l-background dyalhom byad f light mode */
+body.light .usercard, body.light .hero-container {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+
+body.light h1, body.light p {
+  color: #111116; /* Ktabta kat-welli k7la bach t-bān f l-byad */
+}
